@@ -588,7 +588,8 @@
       align-items: center;
       flex-direction: column-reverse; 
       height: 85vh;
-      background-size: 150rem;
+      animation:none;
+      background-size: 105rem;
 
     
     }
