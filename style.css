@@ -35,7 +35,7 @@
     align-items: center;
   }
   .logo{
-    width: 17rem;
+    width: 15rem;
     height: 5rem;
   }
   .Menu-div a{
@@ -72,7 +72,7 @@
     top: 0;
     background:rgb(255, 255, 255);
     width: 100%;
-    box-shadow: 1px 10px 22px -5px rgba(221, 221, 221, 0.65);
+   
     transform: translateY(100px);
     animation: slideUp .8s ease forwards 0.2s;
     z-index: 10000;
@@ -432,16 +432,27 @@
   .services-head{
     font-family: var(--secondary-font);
     font-size: 2rem;
+    padding: 1rem;
     animation: slideUp .8s ease forwards 0.2s;
   }
   .services-para{
     font-family: var(--secondary-font);
     font-size: 1.2rem;
+    padding: 1rem;
     animation: slideUp .8s ease forwards 0.2s;
+    backdrop-filter: blur(18px) saturate(50%);
+    -webkit-backdrop-filter: blur(18px) saturate(50%);
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    border: 1px solid rgba(209, 213, 219, 0.3);
   }
   .services-div{
     padding: 2.5rem;
     animation: slideUp .8s ease forwards 0.2s;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
   }
   @media screen and (max-width:768px){
   
