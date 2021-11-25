@@ -6,6 +6,11 @@
   html{
     scroll-behavior: smooth;
   }
+  :root{
+    --normal-background:rgb(185, 216, 255);
+    --normal-font:'Poppins', sans-serif;
+    --secondary-font:'Source Sans Pro', sans-serif;
+  }
   .loading-div{
     display: flex;
     justify-content: center;
@@ -34,11 +39,7 @@
       transform: rotate(360deg);
     }
   }
-  :root{
-    --normal-background:rgb(185, 216, 255);
-    --normal-font:'Poppins', sans-serif;
-    --secondary-font:'Source Sans Pro', sans-serif;
-  }
+
   
   @keyframes slideUp {
     0% {
