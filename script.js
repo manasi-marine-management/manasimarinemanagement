@@ -19,5 +19,8 @@ window.addEventListener("scroll",function(){
     Menudiv.classList.remove("active");
   }
 
-
+var loader = document.getElementById("loader-wheel");
+  function myFunction() {
+    loader.style.display = "none";
+  }
   
