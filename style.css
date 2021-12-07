@@ -355,6 +355,10 @@
    align-items: center;
    padding: 2.8rem 1rem 1rem 1rem;
   }
+
+      .entry-welcome-div a{
+      text-decoration:none;
+      }
   .span-para{
     font-family: var(--normal-font);
     font-style: italic;
