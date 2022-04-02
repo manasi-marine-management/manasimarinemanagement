@@ -662,6 +662,19 @@ width: 4.5rem;
   .span-para{
     font-size: 1.1rem;
   }
+      .span-para:hover{
+    font-family: var(--normal-font);
+    font-style: italic;
+      text-decoration:none;
+    font-weight: 600;
+    background:green;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    position: relative;
+    padding: 0 1.2rem 0 1.2rem;
+      transition:0.5s all;
+  
+  }
     .about-upper{
       display: flex;
       justify-content: center;
